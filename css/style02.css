@@ -1,17 +1,22 @@
+* {
+
+    outline: 1px solid red !important;
+
+}
+
 .inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
 }
 
-.wrapper {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-h1 {
+.title {
     font-weight: bold;
-    width: 210px;
+    width: 235px;
     margin-top: 14px;
+    padding: 5px;
     color: navy;
 }
 
@@ -35,13 +40,8 @@ a {
 }
 
 .main {
-    width: 1280px;
+    width: 1500px;
     position: relative;
-}
-
-p {
-    font-size: 4rem;
-    margin-top: 300px;
 }
 
 .box {
@@ -49,16 +49,24 @@ p {
     width: 900px;
     height: 200px;
     margin-bottom: 10px;
-    margin-right: 200px;
 }
 
 .demo-img {
     background-image: url(../img/firstview.jpeg);
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    right: 0;
-    bottom: 100px;
+    margin-left: auto;
+    margin-bottom: 300px;
+}
+
+p {
+    font-size: 4rem;
+    margin-top: 300px;
+}
+
+body {
+    width: 1500px;
 }
